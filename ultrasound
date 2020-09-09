@@ -1,0 +1,183 @@
+
+<style>
+  #post-wrapper {
+    float: none;
+    width: 100%;
+    height: 100%;
+    max-width: none;}
+  body {
+  font-family: Arial;
+      margin-top: -20px;
+        height: 100%;
+        background-repeat:no-repeat;
+  background: url(https://raw.githack.com/vizerweb/VizerStyle/master/background.webp);
+}
+#rightfoooter {
+    float: right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.openBtn {
+    background: #00a94b;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-left: 7px;
+}
+  
+  #ffbutton{
+background: #fff;
+    border: none;
+    padding: 10px 15px;
+    color: black;
+        text-align: center;
+    width: 100%;
+        font-size: 14px;
+        border-radius: 7px;
+        margin: 9px;
+    cursor: pointer;
+  }
+
+.openBtn:hover {
+  background: #00d860;
+}
+  #ffbutton:hover{
+  background: #00c4ce;
+  }
+
+.overlay,#footer-container {
+  display: none;
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+#temp {
+    display: flex;
+    margin-top: 10px;
+}
+h3 {
+    color: #fff;
+        height: 70px;
+}
+div#konten {
+    padding: 5px;
+    margin: 5px;
+        height: 240px;
+    width: 240px;
+        box-shadow: 3px -3px 4px #00524b;
+        border-radius: 7px;
+background: #009c8e;
+}
+  a:link {
+  color: black;
+  text-decoration: none;}
+  #sumber,#sumber a {
+  	color: #fff;
+  }
+#layerbody {
+    display: flex;
+}
+#body2 {
+    background: #96969691;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+p {
+    color: #fff;
+}
+</style>
+
+<div class="overlay" id="myOverlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <a href="https://www.faranramdan.com/2020/09/download-update-gfx-gsyntax-pubg-mobile.html">
+<button style="background: rgb(0, 169, 75); border: none; color: white; font-size: 20px; padding: 10px 15px;">Download</button>
+</a>
+  </div>
+</div>
+
+<br />
+<br />
+
+<div id="body2">
+  <center>
+      <h2 style="
+    color: #fff;
+">Download Ultra Paks</h2>
+  <a class="openBtn" tyle="color: #fff">Donwload</a>
+  </center>
+  <p>Version For PUBGM: 1.0</p>
+  <p>Install Manual: Paste File Android - data - com.tencent.ig - files - ue4games - ShadowTrackerExtra - ShadowTrackerExtra - saved - paks</p>
+</div>
+
+
+<div id="footerlayer">
+	<div id="rightfoooter">
+		<a class="openBtn" href="mailto:faranramdan@gmail.com?subject = Feedback&amp;body = Your Messange" style="background: rgb(255, 255, 255); color: #797979;">
+Do You Have Config ? Email Me Now
+</a>
+<button class="openBtn" onclick="openSearch()">GSyntax</button>
+	</div>
+</div>
+  
+
+
+<script>
+function intro() {
+  var x = document.getElementById("subintro");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
